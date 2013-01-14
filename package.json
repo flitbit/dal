@@ -1,0 +1,16 @@
+{
+	"name": "dal",
+	"version": "0.1.0",
+	"author": "Phillip Clark <phillip@flitbit.com>",
+	"description": "A javascript/node.js module containing technology agnostic utility classes for data-access.",
+	"dependencies": {
+	  "node-oops": "0.1.x",
+	  "hooked": "0.1.x",
+	  "inflection": "1.2.x"
+	},
+	"devDependencies": {
+		"vows": "0.7.x",
+		"should": "1.2.x"
+	},
+	"license": "MIT"
+}
