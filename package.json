@@ -1,16 +1,26 @@
 {
 	"name": "dal",
-	"version": "0.1.0",
+	"version": "0.2.1",
 	"author": "Phillip Clark <phillip@flitbit.com>",
-	"description": "A javascript/node.js module containing technology agnostic utility classes for data-access.",
+	"description": "A javascript/nodejs module containing technology agnostic utility classes for data-access.",
 	"dependencies": {
 	  "node-oops": "0.1.x",
 	  "hooked": "0.1.x",
-	  "inflection": "1.2.x"
+	  "inflection": "1.2.x",
+	  "json-ptr": "0.1.x",
+	  "json-path": "0.1.x",
+	  "lodash": "1.0.x"
 	},
 	"devDependencies": {
-		"vows": "0.7.x",
-		"should": "1.2.x"
+		"expect": "0.2.x",
+		"mocha": "1.10.x"
 	},
-	"license": "MIT"
+	"scripts": {
+		"test": "mocha -R spec"
+	},
+	"license": "MIT",
+	"repository":
+	{ "type": "git",
+		"url": "https://github.com/flitbit/dal"
+	}
 }
